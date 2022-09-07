@@ -74,7 +74,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  In het menu item 'shop' krijg je met een screenreader geen hover effect, wat je normaal gesproken wel krijgt.
+
+  <img src="readme-images/Toegankelijkheid1.png" width="375px" alt="Screenreadervoorbeeld">
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
