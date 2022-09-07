@@ -96,7 +96,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light).
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Kleuren combinaties zijn met de brillen nog goed genoeg te onderscheiden
+
+  <img src="readme-images/Toegankelijkheid3.png" width="375px" alt="Screenreadervoorbeeld">
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
