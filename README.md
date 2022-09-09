@@ -36,7 +36,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
+  Pagina 1:
   https://juicebro.com
+
+  Pagina 2:
+  https://juicebro.com/product/bietensap/
 
   #### Screenshot(s) van de eerste pagina (small screen):
   Home page JuiceBrothers
@@ -96,11 +100,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light).
-  Kleuren combinaties zijn met de brillen nog goed genoeg te onderscheiden
-
+  Kleuren combinaties zijn met de brillen nog goed genoeg te onderscheiden.
   <img src="readme-images/Toegankelijkheid3.png" width="375px" alt="Screenreadervoorbeeld">
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Knoppen zijn in het algemeen goed te onderscheiden, ook qua grootte.
+
+  Je kan voor bepaalde knoppen meer ruimte gebruiken, maar de belangrijke knoppen zijn gebruiksvriendelijk.
 
 </details>
 
@@ -108,11 +113,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Breakdownschets (week 1)
 
-<details>
+<details open>
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/juicebrothersbreakdownhomepage.pdf" width="430px" alt="breakdownvandehelepagina">
 
   ### dynamisch deel (bijv menu):
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
