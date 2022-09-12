@@ -2,11 +2,11 @@
 /* CSS REMEDY */
 /**************/
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box;
 }
 
 button, summary {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 
@@ -17,9 +17,9 @@ button, summary {
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+    /* startje */
+    --color-text:#111;
+    --color-background:#eee;
 }
 
 
@@ -35,5 +35,15 @@ button, summary {
 body {
   color:var(--color-text);
   background-color:var(--color-background);
+
 }
 
+ header ul:first-of-type {
+     display: flex;
+
+
+
+    }
+
+
+    }

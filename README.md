@@ -84,7 +84,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   <img src="readme-images/Toegankelijkheid2.png" width="375px" alt="Screenreadervoorbeeld">
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  dit kan opgelost worden door het menu al te laten uitklappen als je er 1 keer op klikt, en na de 2e keer pas naar de pagina gaat.
 
 
   #### Muis en Toetsenbord
@@ -117,7 +117,7 @@ Knoppen zijn in het algemeen goed te onderscheiden, ook qua grootte.
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina:
-  <img src="readme-images/juicebrothersbreakdownhomepage.pdf" width="430px" alt="breakdownvandehelepagina">
+  <img src="readme-images/juicebrothersbreakdownhomepage.png" width="430px" alt="breakdownvandehelepagina">
 
   ### dynamisch deel (bijv menu):
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
