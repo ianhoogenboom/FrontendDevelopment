@@ -111,13 +111,14 @@ Knoppen zijn in het algemeen goed te onderscheiden, ook qua grootte.
 
 
 
+
 ## Breakdownschets (week 1)
 
 <details open>
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina:
-  <img src="readme-images/juicebrothersbreakdownhomepage.png" width="430px" alt="breakdownvandehelepagina">
+  <img src="readme-images/juicebrothersbreakdownhomepage.pdf" width="430px" alt="breakdownvandehelepagina">
 
   ### dynamisch deel (bijv menu):
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
