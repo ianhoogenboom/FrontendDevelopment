@@ -303,5 +303,7 @@ Knoppen zijn in het algemeen goed te onderscheiden, ook qua grootte.
   1. Alle images op mijn website zijn afkomstig van: https://juicebro.com/.
   2. Het hamburger menu: https://codepen.io/shooft/pen/vYjgNwj.
   3. Symbool hamburger menu: https://fonts.google.com/icons.
+  4. Check circle icoon: https://fonts.google.com/icons.
+  5. Styling list bron :https://www.w3schools.com/css/css_list.asp.
 
 </details>
