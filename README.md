@@ -300,8 +300,8 @@ Knoppen zijn in het algemeen goed te onderscheiden, ook qua grootte.
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Alle images op mijn website zijn afkomstig van: https://juicebro.com/.
+  2. Het hamburger menu: https://codepen.io/shooft/pen/vYjgNwj.
+  3. Symbool hamburger menu: https://fonts.google.com/icons.
 
 </details>
