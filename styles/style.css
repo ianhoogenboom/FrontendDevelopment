@@ -59,27 +59,27 @@ header {
 
 header img {
     position: fixed;
-    justify-content:flex-start;
+    justify-content: flex-start;
     width: 10em;
 }
 
 header button {
-    position:relative;
-    z-index:100;
+    position: relative;
+    z-index: 100;
 }
 
 header nav {
-    position:fixed;
-    inset:0;
+    position: fixed;
+    inset: 0;
     background-color: var(--color-background);
 
-    transform:translateX(100%);
+    transform: translateX(100%);
 
-    transition:1s;
+    transition: 1s;
 }
 
 header nav.open {
-    transform:translateX(0%);
+    transform: translateX(0%);
 }
 
 
@@ -105,15 +105,55 @@ header li {
 
 
 
+/*
+header >  > ul > li {
+   de buttons in het midden van de li's positioneren
+  display:grid;
+  place-content:center;
+}
+*/
+
+header button {
+    height: 2.75rem;
+    aspect-ratio: 1/1;
+    padding: 0;
+    text-indent: 100%;
+
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+
+/*    BRON https://stackoverflow.com/questions/471510/hide-text-using-css*/
+
+    background-color: transparent;
+    border: none;
+    font-family: inherit;
+    font-size: 1em;
+    background-image: url("/images/menu_FILL0_wght400_GRAD0_opsz48.png");
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /*    BRON VAN SANNE*/
+}
+
+header button.open {
+    background-image:url("https://assets.codepen.io/274456/ui-icon-cross.svg");
+/*    lukt me niet om plaatje te veranderen*/
+
+}
+
+
+
 /*********************/
 /****** Section 1 ******/
 /*********************/
 
 section:first-of-type {
     margin: 0;
-    background-color:var(--color-background);
+    background-color: var(--color-background);
     background-image: url(/images/bannervisual.png);
-    background-size:cover;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,17 +164,17 @@ section:first-of-type h1 {
     margin: 1em;
     font-size: 2em;
     display: flex;
-    justify-self:center;
+    justify-self: center;
 
 }
 
 section:first-of-type a {
     margin: 0;
     color: var(--color-text);
-    padding:.8em;
-    border:.15em solid;
+    padding: .8em;
+    border: .15em solid;
     border-radius: .5em;
-    background-color:var(--color-background);
+    background-color: var(--color-background);
     text-decoration: none;
 
 }
@@ -171,13 +211,13 @@ section:first-of-type p {
 section:nth-of-type(3) {
     background-color: var(--color-background-top);
     display: flex;
-    flex-direction:column
+    flex-direction: column
 }
 
 section:nth-of-type(3) h2 {
     color: var(--color-text);
-    font-size:2.5em;
-    margin:.7em;
+    font-size: 2.5em;
+    margin: .7em;
     max-width: 70%;
 }
 
@@ -187,15 +227,15 @@ section:nth-of-type(3) ul {
 }
 
 section:nth-of-type(3) p {
-    margin:.7em 2em;
+    margin: .7em 2em;
 }
 
 section:nth-of-type(3) a {
     color: white;
     background-color: #04622d;
-    text-align:start;
-    margin:.7em 2em;
-    padding:1em;
+    text-align: start;
+    margin: .7em 2em;
+    padding: 1em;
     text-decoration: none;
     border-radius: .5em;
     max-width: 10.8em;
