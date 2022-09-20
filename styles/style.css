@@ -123,13 +123,13 @@ header button {
     overflow: hidden;
     color: white;
 
-/*    BRON https://stackoverflow.com/questions/471510/hide-text-using-css*/
+    /*    BRON https://stackoverflow.com/questions/471510/hide-text-using-css*/
 
     background-color: transparent;
     border: none;
     font-family: inherit;
     font-size: 1em;
-    background-image: url("/images/menu_FILL0_wght400_GRAD0_opsz48.png");
+    background-image: url("images/menu_FILL0_wght400_GRAD0_opsz48.png");
     background-size: 90%;
     background-position: center;
     background-repeat: no-repeat;
@@ -138,8 +138,8 @@ header button {
 }
 
 header button.open {
-    background-image:url("https://assets.codepen.io/274456/ui-icon-cross.svg");
-/*    lukt me niet om plaatje te veranderen*/
+    background-image: url("https://assets.codepen.io/274456/ui-icon-cross.svg");
+    /*    lukt me niet om plaatje te veranderen*/
 
 }
 
@@ -152,7 +152,7 @@ header button.open {
 section:first-of-type {
     margin: 0;
     background-color: var(--color-background);
-    background-image: url(/images/bannervisual.png);
+    background-image: url(images/bannervisual.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -222,7 +222,7 @@ section:nth-of-type(3) h2 {
 }
 
 section:nth-of-type(3) ul {
-    list-style-image: url(/images/checkcircle.png);
+    list-style-image: url(images/checkcircle.png);
 
 }
 
@@ -242,6 +242,48 @@ section:nth-of-type(3) a {
 }
 
 
+
+/*********************/
+/****** Section 4 ******/
+/*********************/
+
+
+section:nth-of-type(4) {
+    background-color: var(--color-background-top);
+}
+
+
+section:nth-of-type(4) h3:first-of-type {
+    color: var(--color-text);
+}
+
+section:nth-of-type(4) h3:nth-of-type(2) {
+    color: yellow;
+}
+
+section:nth-of-type(4) ul:first-of-type {
+    background-color: yellow;
+    font-size: 1.04em;
+    line-height: 2em;
+    padding: 2em;
+    margin:1em;
+
+}
+
+section:nth-of-type(4) ul:nth-of-type(2) {
+    color: yellow;
+    background-color: black;
+    line-height: 2em;
+    font-size: 1.04em;
+    padding: 2em;
+    margin:1em;
+}
+
+
+
+
+
+
 /*
 section:first-of-type {
 
@@ -253,3 +295,5 @@ section:nth-last-of-type() li {
 
 }
 */
+
+/*section.images li:nth-of-type(2) button {}*/
