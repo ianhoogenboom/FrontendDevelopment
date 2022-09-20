@@ -306,5 +306,6 @@ Knoppen zijn in het algemeen goed te onderscheiden, ook qua grootte.
   4. Check circle icoon: https://fonts.google.com/icons.
   5. Styling list bron :https://www.w3schools.com/css/css_list.asp.
   6. Text onzichtbaar maken.
+  7. achtergrondkleur tot een bepaalde hoogte: https://medium.com/@codefoxx/html-css-how-to-split-a-background-into-2-colors-1cdc394deb3d.
 
 </details>
