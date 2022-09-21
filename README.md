@@ -307,5 +307,7 @@ Knoppen zijn in het algemeen goed te onderscheiden, ook qua grootte.
   5. Styling list bron :https://www.w3schools.com/css/css_list.asp.
   6. Text onzichtbaar maken.
   7. achtergrondkleur tot een bepaalde hoogte: https://medium.com/@codefoxx/html-css-how-to-split-a-background-into-2-colors-1cdc394deb3d.
+  8. Tekst met alleen uitlijning: https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke.
+  9. Tekst die beweegt: https://forum.freecodecamp.org/t/marquee-html-loop-behavior/306036/4.
 
 </details>
