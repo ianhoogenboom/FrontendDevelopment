@@ -309,5 +309,6 @@ Knoppen zijn in het algemeen goed te onderscheiden, ook qua grootte.
   7. achtergrondkleur tot een bepaalde hoogte: https://medium.com/@codefoxx/html-css-how-to-split-a-background-into-2-colors-1cdc394deb3d.
   8. Tekst met alleen uitlijning: https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke.
   9. Tekst die beweegt: https://forum.freecodecamp.org/t/marquee-html-loop-behavior/306036/4.
+  10. De html en styling van het form https://www.w3schools.com/howto/howto_css_register_form.asp.
 
 </details>

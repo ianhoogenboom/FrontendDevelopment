@@ -23,8 +23,8 @@ summary {
     --color-text: #111;
     --color-background: #F6F6F6;
     --color-background-top: #B8E2F2;
-    --color-buttonblack:;
-    --color-buttonwhite:;
+    --color-buttonblack: ;
+    --color-buttonwhite: ;
 
 
 
@@ -441,32 +441,32 @@ section:nth-of-type(7) {
 }
 
 section:nth-of-type(7) h3 {
-    margin-left:1em;
+    margin-left: 1em;
     margin-top: 11em;
-    font-size:1.8em;
+    font-size: 1.8em;
     max-width: 8em;
 
 }
 
 
 section:nth-of-type(7) p:first-of-type {
-    margin:1.3em;
+    margin: 1.3em;
     z-index: 100;
 }
 
 section:nth-of-type(7) marquee {
     position: absolute;
-    color:transparent;
+    color: transparent;
     -webkit-text-stroke: .012em white;
     font-size: 5em;
     font-weight: 500;
     z-index: 100;
-    bottom:4em;
+    bottom: 4em;
 }
 
 section:nth-of-type(7) a {
-    text-decoration:none;
-    margin:1.3em;
+    text-decoration: none;
+    margin: 1.3em;
     color: white;
     font-size: .8em;
     padding: 1em;
@@ -478,13 +478,13 @@ section:nth-of-type(7) a {
 section:nth-of-type(7) img {
     position: absolute;
     max-width: 70%;
-    top:-3.5em;
+    top: -3.5em;
 }
 
 section:nth-of-type(7) img:nth-of-type(2) {
     position: absolute;
-    top:-7em;
-    left:13em;
+    top: -7em;
+    left: 13em;
     max-width: 40%;
     border-radius: .3em;
 }
@@ -500,7 +500,58 @@ section:nth-of-type(7) img:nth-of-type(2) {
 section:nth-of-type(8) {
     display: inline-block;
     background-color: #E2B1A5;
+    display: flex;
+    flex-wrap: wrap;
+     margin-bottom: 2em;
 }
+
+section:nth-of-type(8) h4 {
+    font-size: 2em;
+    font-weight: 500;
+    margin-left: 1em;
+}
+
+section:nth-of-type(8) h4:nth-of-type(2) {
+    font-size: 2em;
+    font-weight: 500;
+    margin-left: 1em;
+    margin-bottom: .1em;
+}
+
+section:nth-of-type(8) img {
+    max-width: 11em;
+
+}
+
+section:nth-of-type(8) p {
+    font-weight: 200;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+section:nth-of-type(8) label {
+    margin-left: 2em;
+
+}
+
+section:nth-of-type(8) input {
+    font-size: .9em;
+    color: #525050;
+    background-color: transparent;
+    border-radius: .5em 0em  0em .5em;
+    border-color: black;
+    padding:.5em 1em;
+}
+
+section:nth-of-type(8) button {
+    font-size: 1em;
+    color: white;
+    border-radius: 0em .5em  .5em 0em;
+    border-color: black;
+    padding:1em;
+    background-color: var(--color-text);
+}
+
 
 
 
