@@ -12,7 +12,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Jij
 
-<details open>
+<details>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
@@ -32,7 +32,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Je website
 
-<details open>
+<details>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
@@ -71,7 +71,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Toegankelijkheidstest 1/2 (week 1)
 
-<details open>
+<details>
   <summary>uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
@@ -114,7 +114,7 @@ Knoppen zijn in het algemeen goed te onderscheiden, ook qua grootte.
 
 ## Breakdownschets (week 1)
 
-<details open>
+<details>
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina:
@@ -167,7 +167,7 @@ Knoppen zijn in het algemeen goed te onderscheiden, ook qua grootte.
 
 ## Voortgang 2 (week 3)
 
-<details>
+<details open>
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
