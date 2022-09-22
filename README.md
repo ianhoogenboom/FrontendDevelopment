@@ -76,7 +76,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-  -
+  - Website in het algemeen is goed toegankelijk.
+  - Een aantal dingen kunnen beter, bijvoorbeeld: icoontjes voor bepaalde feed forward.
 
   #### Screenreader
   In het menu item 'shop' krijg je met een screenreader geen hover effect, wat je normaal gesproken wel krijgt.
@@ -129,7 +130,7 @@ Knoppen zijn in het algemeen goed te onderscheiden, ook qua grootte.
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+
 
 </details>
 
@@ -143,26 +144,36 @@ Knoppen zijn in het algemeen goed te onderscheiden, ook qua grootte.
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Html structuur gaat goed, css ben ik nog niet ver mee.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Eva                              | Ian                        | Nikolai                    | Pepijn           | Sam         |
+  | ---                              | ---                        | ---                        | ---              | ---         |
+  |                                  | -hoe selecteer ik alleen de|                            |                  |             |
+  |                                  | 2e p in een section,       |                            |                  |             |
+  |                                  | als ik al section:first of |                            |                  |             |
+  |                                  | type gebruik, hoe kan dit  |                            |                  |             |
+  |                                  | beter.                     |                            |                  |             |
+  |                                  | over de html structuur     |                            |                  |             |
+  | ...                              | van mijn menu.             |                            | ...              | ...         |
+  |                                  | - Ik heb nog wat moeite met|                            |                  |             |
+  |                                  | het benoemen van de H's    |                            |                  |             |
+
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  * Feedback en opmerkingen
+
+    - Header buiten main
+    - Vergeet de ul niet voor de li
+    - Geen a’s in p’s
+    - H1 tot ongeveer h4 (tot h8 kan/hoeft niet)
+
 
 </details>
 
@@ -176,7 +187,13 @@ Knoppen zijn in het algemeen goed te onderscheiden, ook qua grootte.
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik ben een stuk verder dan vorige week en krijg er wat meer handigheid in.
+  Het is blijven proberen en anders vragen.
+
+  <img src="readme-images/voortgangW2korting.png" width="430px" alt="Voortgangvanwebsite">
+  <img src="readme-images/voortgangW2sapkuur.png" width="430px" alt="Voortgangvanwebsite">
+  <img src="readme-images/voortgangW2shockfreeze.png" width="430px" alt="Voortgangvanwebsite">
+  <img src="readme-images/voortgangW2abonnementen.png" width="430px" alt="Voortgangvanwebsite">
 
 
   ### Agenda voor meeting
@@ -184,9 +201,9 @@ Knoppen zijn in het algemeen goed te onderscheiden, ook qua grootte.
 
   | Eva                              | Ian                        | Nikolai                    | Pepijn           | Sam         |
   | ---                              | ---                        | ---                        | ---              | ---         |
-  | dit bespreken                    | Ik heb een vraag           | Aan welk aspect            | en dan ik dat    |             |
-  | en dat ook nog                   | over de html structuur     | van toegankelijkheid       | dit wil ik zeker |             |
-  | ...                              | van mijn menu.             | kan ik werken              | ...              | ...         |
+  |                                  | Ik heb een vraag           | Aan welk aspect            |                  |             |
+  |                                  | over de html structuur     | van toegankelijkheid       |                  |             |
+  | ...                              | van mijn menu.             | kan ik werken.             | ...              | ...         |
   |                                  |                            | Welke dingen je kan doen   |                  |             |
   |                                  |                            | voor de surface plane.     |                  |             |
 
@@ -196,10 +213,11 @@ Knoppen zijn in het algemeen goed te onderscheiden, ook qua grootte.
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - readme bestand bijhouden.
+  - het linken van images & mappen op de juiste manier.
+  - voor de vormgeving mag ik soms een div gebruiken.
+  - display: inline-block voor a'tjes.
+  - menu hoeft niet volledig uitgewerkt te zijn.
 
 </details>
 
