@@ -177,11 +177,15 @@ Knoppen zijn in het algemeen goed te onderscheiden, ook qua grootte.
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Eva                              | Ian                        | Nikolai                    | Pepijn           | Sam         |
+  | ---                              | ---                        | ---                        | ---              | ---         |
+  | dit bespreken                    | Ik heb een vraag           | Aan welk aspect            | en dan ik dat    |             |
+  | en dat ook nog                   | over de html structuur     | van toegankelijkheid       | dit wil ik zeker |             |
+  | ...                              | van mijn menu.             | kan ik werken              | ...              | ...         |
+  |                                  |                            | Welke dingen je kan doen   |                  |             |
+  |                                  |                            | voor de surface plane.     |                  |             |
+
+
 
 
   ### Verslag van meeting
