@@ -21,7 +21,7 @@ summary {
 /*********************/
 :root {
     --color-text: #111;
-    --color-background: #F6F6F6;
+    --color-background: #FFFFFF;
     --color-background-top: #B8E2F2;
     --color-buttonblack: ;
     --color-buttonwhite: ;
@@ -315,7 +315,7 @@ section:nth-of-type(4) ul:nth-of-type(2) {
     font-size: 1.04em;
     padding: 2em;
     margin: 1em;
-    list-style-image: url(/images/dropyellow.svg);
+    list-style-image: url(../images/dropyellow.svg);
 
 }
 
