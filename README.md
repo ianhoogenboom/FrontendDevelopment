@@ -76,6 +76,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  -
 
   #### Screenreader
   In het menu item 'shop' krijg je met een screenreader geen hover effect, wat je normaal gesproken wel krijgt.
@@ -88,13 +89,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Muis en Toetsenbord
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Op bepaalde delen van de website kan je naar rechts scrollen, dit wordt alleen niet heel goed aangegeven.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
+  Dit kan beter door bijvoorbeeld arrow icons toe te voegen bij de groene bar onderaan.
+  <img src="readme-images/toegankelijkheid%20MuisToetsenbord.png" width="375px" alt="Screenreadervoorbeeld">
+
+
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Met shocks en elastiekjes is het natuurlijk moeilijker te bedienen, maar ik kwam erachter dat de website nog makkelijk te bedienen was aangezien het duidelijk is waar de content staat. Binnen deze content zijn de buttons ook erg duidelijk.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
