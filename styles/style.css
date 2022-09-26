@@ -20,11 +20,39 @@ summary {
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
+
+/*    texts*/
     --color-text: #111;
+    --color-text-yellow: #fdfd09;
+    --color-text-green: #04622d;
+    --color-text-orange: #fb7128;
+
+
+/*    backgrounds*/
     --color-background: #FFFFFF;
-    --color-background-top: #B8E2F2;
-    --color-buttonblack: ;
-    --color-buttonwhite: ;
+    --color-backgroundlightgrey: #F6F6F6;
+    --color-background-sapkuur: #B8E2F2;
+    --color-background-shockfreeze: #fdfd09;
+    --color-background-abonnementen: #fb7128;
+    --color-background-zoalsgezien:#e2b1a5;
+    --color-background-fanfavoriteseva:#e2b1a5;
+    --color-background-fanfavoritesvivian:#fb7128;
+    --color-background-footer: #000000;
+
+
+/*    buttons*/
+    --color-buttonblack:#111;
+    --color-buttonblack-text:#FFFFFF;
+
+    --color-buttonwhite:#FFFFFF;
+    --color-buttonwhite-text:#111;
+
+    --color-buttongreen: #04622d;
+    --color-buttongreen-text:#FFFFFF;
+
+    --color-MenuButton:#ffffff00;
+
+    --color-inputbutton-text: #525050;
 
 
 
@@ -131,15 +159,14 @@ header button {
 
     white-space: nowrap;
     overflow: hidden;
-    color: white;
 
     /*    BRON https://stackoverflow.com/questions/471510/hide-text-using-css*/
 
-    background-color: transparent;
+    background-color: var(--color-MenuButton);
     border: none;
     font-family: inherit;
     font-size: 1em;
-    background-image: url("/images/menu_FILL0_wght400_GRAD0_opsz48.png");
+    background-image: url("../images/menu_FILL0_wght400_GRAD0_opsz48.png");
     background-size: 90%;
     background-position: center;
     background-repeat: no-repeat;
@@ -162,7 +189,7 @@ header button.open {
 section:first-of-type {
     margin: 0;
     background-color: var(--color-background);
-    background-image: url(/images/bannervisual.png);
+    background-image: url(../images/bannervisual.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -228,9 +255,9 @@ section:first-of-type p {
 
 
 section:nth-of-type(3) {
-    background-color: var(--color-background-top);
+    background-color: var(--color-background-sapkuur);
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 
 section:nth-of-type(3) h2 {
@@ -241,16 +268,34 @@ section:nth-of-type(3) h2 {
 }
 
 section:nth-of-type(3) ul {
-    list-style-image: url(/images/checkcircle.png);
+/*    list-style-image: url(/images/checkcircle.png);*/
+    padding:0;
+    padding-left: 1.5em;
+    margin:0;
+    list-style:none;
+    display:grid;
+    gap:1em;
 }
+
+section:nth-of-type(3) li {
+    padding-left:2.5em;
+
+    background-image: url("../images/checkcircle.png");
+    background-size:1.5em auto;
+    background-repeat:no-repeat;
+    background-position:left center;
+
+
+}
+
 
 section:nth-of-type(3) p {
     margin: .7em 2em;
 }
 
 section:nth-of-type(3) a {
-    color: white;
-    background-color: #04622d;
+    color: var(--color-buttongreen-text);
+    background-color: var(--color-buttongreen);
     text-align: start;
     margin: .7em 2em;
     padding: 1em;
@@ -289,19 +334,19 @@ section:nth-of-type(4) h3:first-of-type {
 }
 
 section:nth-of-type(4) h3:nth-of-type(2) {
-    color: yellow;
+    color: var(--color-background-shockfreeze);
     display: inline-block;
     margin-left: 1em;
 }
 
 
 section:nth-of-type(4) ul:first-of-type {
-    background-color: yellow;
+    background-color: var(--color-background-shockfreeze);
     font-size: 1.04em;
     line-height: 2em;
     padding: 2em;
     margin: 1em;
-    list-style-image: url(/images/drop-black.svg);
+    list-style-image: url(../images/drop-black.svg);
 
 
 }
@@ -346,11 +391,11 @@ section:nth-of-type(4) p:nth-of-type(2) {
 section:nth-of-type(4) a {
     display: flex;
     justify-content: center;
-    color: white;
+    color: var(--color-buttonblack-text);
     padding: 1em;
     margin: 1em 8em;
     border-radius: .5em;
-    background-color: black;
+    background-color: var(--color-buttonblack);
     text-decoration: none;
 }
 
@@ -376,7 +421,7 @@ section:nth-of-type(4) iframe {
 
 
 section:nth-of-type(5) {
-    background-color: #F6F6F6;
+    background-color: var(--color-backgroundlightgrey);
     display: inline-block;
 }
 
@@ -389,7 +434,7 @@ section:nth-of-type(5) {
 
 
 section:nth-of-type(6) {
-    background-color: #F6F6F6;
+    background-color: var(--color-backgroundlightgrey);
 }
 
 section:nth-of-type(6) h2 {
@@ -414,6 +459,7 @@ section:nth-of-type(6) img {
 }
 
 section:nth-of-type(6) a {
+    display: inline-block;
     color: var(--color-text);
     border: solid;
     border-radius: .2em;
@@ -433,11 +479,9 @@ section:nth-of-type(6) a {
 
 section:nth-of-type(7) {
     display: inline-block;
-    background-color: #FB7028;
-    margin-top: 8em;
-    margin-bottom: 2em;
-    padding-top: #FB7028;
+    background-color: var(--color-background-abonnementen);
     position: relative;
+    margin-top: 8em;
 }
 
 section:nth-of-type(7) h3 {
@@ -451,27 +495,27 @@ section:nth-of-type(7) h3 {
 
 section:nth-of-type(7) p:first-of-type {
     margin: 1.3em;
-    z-index: 100;
 }
 
 section:nth-of-type(7) marquee {
     position: absolute;
-    color: transparent;
-    -webkit-text-stroke: .012em white;
+    color: var(--color-MenuButton);
+    -webkit-text-stroke: .012em var(--color-buttonblack-text);
     font-size: 5em;
     font-weight: 500;
     z-index: 100;
-    bottom: 4em;
+    bottom: 5em;
 }
 
 section:nth-of-type(7) a {
+    display: inline-block;
     text-decoration: none;
     margin: 1.3em;
-    color: white;
+    color: var(--color-buttonblack-text);
     font-size: .8em;
     padding: 1em;
     border-radius: .5em;
-    background-color: black;
+    background-color: var(--color-buttonblack);
     text-decoration: none;
 }
 
@@ -499,10 +543,10 @@ section:nth-of-type(7) img:nth-of-type(2) {
 
 section:nth-of-type(8) {
     display: inline-block;
-    background-color: #E2B1A5;
+    background-color: var(--color-background-zoalsgezien);
     display: flex;
     flex-wrap: wrap;
-     margin-bottom: 2em;
+
 }
 
 section:nth-of-type(8) h4 {
@@ -530,26 +574,27 @@ section:nth-of-type(8) p {
 }
 
 section:nth-of-type(8) label {
+    display: inline-block;
     margin-left: 2em;
 
 }
 
 section:nth-of-type(8) input {
     font-size: .9em;
-    color: #525050;
-    background-color: transparent;
+    color: var(--color-inputbutton-text);
+    background-color: var(--color-MenuButton);
     border-radius: .5em 0em  0em .5em;
-    border-color: black;
+    border-color: var(--color-text);
     padding:.5em 1em;
 }
 
 section:nth-of-type(8) button {
     font-size: 1em;
-    color: white;
+    color: var(--color-buttonblack-text);
     border-radius: 0em .5em  .5em 0em;
-    border-color: black;
+    border-color: var(--color-text);
     padding:1em;
-    background-color: var(--color-text);
+    background-color: var(--color-buttonblack);
 }
 
 
@@ -561,6 +606,6 @@ section:nth-of-type(8) button {
 
 footer {
     display: inline-block;
-    color: white;
-    background-color: black;
+    color: var(--color-buttonblack-text);
+    background-color: var(--color-background-footer);
 }
