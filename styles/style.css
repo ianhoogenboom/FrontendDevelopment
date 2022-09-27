@@ -21,36 +21,40 @@ summary {
 /*********************/
 :root {
 
-/*    texts*/
+    /*    texts*/
     --color-text: #111;
+    --color-text-black: #000000;
+    --color-text-white: #FFFFFF;
     --color-text-yellow: #fdfd09;
     --color-text-green: #04622d;
     --color-text-orange: #fb7128;
+    --color-text-grey: #808080;
 
 
-/*    backgrounds*/
+    /*    backgrounds*/
     --color-background: #FFFFFF;
     --color-backgroundlightgrey: #F6F6F6;
     --color-background-sapkuur: #B8E2F2;
     --color-background-shockfreeze: #fdfd09;
+    --color-background-shockfreezeblack: #000000;
     --color-background-abonnementen: #fb7128;
-    --color-background-zoalsgezien:#e2b1a5;
-    --color-background-fanfavoriteseva:#e2b1a5;
-    --color-background-fanfavoritesvivian:#fb7128;
+    --color-background-zoalsgezien: #e2b1a5;
+    --color-background-fanfavoriteseva: #e2b1a5;
+    --color-background-fanfavoritesvivian: #fb7128;
     --color-background-footer: #000000;
 
 
-/*    buttons*/
-    --color-buttonblack:#111;
-    --color-buttonblack-text:#FFFFFF;
+    /*    buttons*/
+    --color-buttonblack: #111;
+    --color-buttonblack-text: #FFFFFF;
 
-    --color-buttonwhite:#FFFFFF;
-    --color-buttonwhite-text:#111;
+    --color-buttonwhite: #FFFFFF;
+    --color-buttonwhite-text: #111;
 
     --color-buttongreen: #04622d;
-    --color-buttongreen-text:#FFFFFF;
+    --color-buttongreen-text: #FFFFFF;
 
-    --color-MenuButton:#ffffff00;
+    --color-MenuButton: #ffffff00;
 
     --color-inputbutton-text: #525050;
 
@@ -97,22 +101,18 @@ header img:first-of-type {
 header img:nth-of-type(2) {
     width: 2.4em;
     margin-right: -5em;
-
 }
 
 header button {
     position: relative;
     z-index: 100;
-
 }
 
 header nav {
     position: fixed;
     inset: 0;
     background-color: var(--color-background);
-
     transform: translateX(100%);
-
     transition: 1s;
 }
 
@@ -120,27 +120,18 @@ header nav.open {
     transform: translateX(0%);
 }
 
-
 header ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     display: flex;
     align-items: center;
-
-
-
-
-
 }
 
 header li {
     color: var(--color-text);
     justify-content: space-between;
 }
-
-
-
 
 
 /*
@@ -268,22 +259,21 @@ section:nth-of-type(3) h2 {
 }
 
 section:nth-of-type(3) ul {
-/*    list-style-image: url(/images/checkcircle.png);*/
-    padding:0;
+    padding: 0;
     padding-left: 1.5em;
-    margin:0;
-    list-style:none;
-    display:grid;
-    gap:1em;
+    margin: 0;
+    list-style: none;
+    display: grid;
+    gap: 1em;
 }
 
 section:nth-of-type(3) li {
-    padding-left:2.5em;
+    padding-left: 2.5em;
 
     background-image: url("../images/checkcircle.png");
-    background-size:1.5em auto;
-    background-repeat:no-repeat;
-    background-position:left center;
+    background-size: 1.5em auto;
+    background-repeat: no-repeat;
+    background-position: left center;
 
 
 }
@@ -324,45 +314,90 @@ section:nth-of-type(4) {
 
 }
 
-/*De gele ul binnen de section*/
 
-section:nth-of-type(4) h3:first-of-type {
+section:nth-of-type(4) div h3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2em;
+}
+
+section:nth-of-type(4) div ul {
+    padding: 0;
+    padding-left: 1.5em;
+    margin: 0;
+    list-style: none;
+    display: grid;
+    gap: 1em;
+}
+
+
+
+/*De gele div binnen de section*/
+
+section:nth-of-type(4) div:first-of-type {
+    background-color: var(--color-background-shockfreeze);
+    margin: 1em;
+}
+
+section:nth-of-type(4) div:first-of-type ul:first-of-type {
+    font-size: 1.04em;
+    line-height: 1.5em;
+    padding: 1.5em;
+    margin: 1em;
+}
+
+
+section:nth-of-type(4) div:first-of-type li {
+    padding-left: 2.5em;
+    background-image: url("../images/drop-black.svg");
+    background-size: 1.5em auto;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+/* Einde gele div binnen de section*/
+
+
+/*De zwarte div binnen de section*/
+
+section:nth-of-type(4) div:nth-of-type(2) {
     color: var(--color-text);
     display: inline-block;
     margin-left: 1em;
-
 }
 
-section:nth-of-type(4) h3:nth-of-type(2) {
-    color: var(--color-background-shockfreeze);
-    display: inline-block;
-    margin-left: 1em;
-}
-
-
-section:nth-of-type(4) ul:first-of-type {
-    background-color: var(--color-background-shockfreeze);
+section:nth-of-type(4) div:nth-of-type(2) ul:first-of-type {
     font-size: 1.04em;
+    line-height: 1.5em;
+    padding: 1.5em;
+    margin: 1em;
+}
+
+
+section:nth-of-type(4) div:nth-of-type(2) {
+    background-color: var(--color-background-shockfreezeblack);
+    margin: 1em;
+    color: var(--color-text-yellow);
+}
+
+section:nth-of-type(4) div:nth-of-type(2) li {
+    padding-left: 2.5em;
+    background-image: url("../images/dropyellow.svg");
+    background-size: 1.5em auto;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+section:nth-of-type(4) div:nth-of-type(2) ul {
+    background-color: var(--color-background-shockfreezeblack);
     line-height: 2em;
+    font-size: 1.04em;
     padding: 2em;
     margin: 1em;
-    list-style-image: url(../images/drop-black.svg);
-
-
 }
 
-/*De zwarte ul binnen de section*/
+/* Einde zwarte div binnen de section*/
 
-section:nth-of-type(4) ul:nth-of-type(2) {
-    color: yellow;
-    background-color: black;
-    line-height: 2em;
-    font-size: 1.04em;
-    padding: 2em;
-    margin: 1em;
-    list-style-image: url(../images/dropyellow.svg);
-
-}
 
 section:nth-of-type(4) h3 {
     display: flex;
@@ -583,17 +618,17 @@ section:nth-of-type(8) input {
     font-size: .9em;
     color: var(--color-inputbutton-text);
     background-color: var(--color-MenuButton);
-    border-radius: .5em 0em  0em .5em;
+    border-radius: .5em 0em 0em .5em;
     border-color: var(--color-text);
-    padding:.5em 1em;
+    padding: .5em 1em;
 }
 
 section:nth-of-type(8) button {
     font-size: 1em;
     color: var(--color-buttonblack-text);
-    border-radius: 0em .5em  .5em 0em;
+    border-radius: 0em .5em .5em 0em;
     border-color: var(--color-text);
-    padding:1em;
+    padding: 1em;
     background-color: var(--color-buttonblack);
 }
 
@@ -605,7 +640,117 @@ section:nth-of-type(8) button {
 /*********************/
 
 footer {
-    display: inline-block;
     color: var(--color-buttonblack-text);
     background-color: var(--color-background-footer);
+    padding: 2em;
+
 }
+
+footer h4:first-of-type {
+    color: var(--color-text-white);
+    font-size: 1.5em;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    max-width: 11em;
+
+}
+
+footer h4:not(:first-of-type) {
+    color: var(--color-textwhite);
+    font-size: 1.2em;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+footer p:first-of-type {
+    font-weight: 200;
+}
+
+footer p:nth-of-type(2) {
+    color: var(--color-text-grey);
+    font-weight: 200;
+}
+
+footer ul:not(:first-of-type) {
+    list-style: none;
+    margin-left: -2.4em;
+    margin-top: -1.5em;
+}
+
+footer ul:not(:first-of-type) li {
+    color: var(--color-text-grey);
+    font-weight: 200;
+    line-height: 2.5em;
+}
+
+footer img:first-of-type {
+    display: flex;
+    max-width: 100%;
+}
+
+footer img:nth-of-type(2) {
+    display: flex;
+    max-width: 100%;
+}
+
+
+
+    /****contact ****/
+
+footer ul:first-of-type {
+    list-style: none;
+    margin-left: -2.4em;
+}
+
+footer ul:first-of-type li {
+    padding-left: 1.5em;
+    font-weight: 200;
+}
+
+footer ul:first-of-type li:first-of-type {
+    background-image: url("../images/whapp.png");
+    background-size: 1.5em auto;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+footer ul:first-of-type li:nth-of-type(2) {
+    background-image: url("../images/apenstaart.png");
+    background-size: 1.5em auto;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+footer ul:first-of-type li:nth-of-type(3) {
+    background-image: url("../images/chatwolk.png");
+    background-size: 1.5em auto;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+    /*****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
