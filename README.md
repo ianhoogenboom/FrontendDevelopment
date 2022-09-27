@@ -182,7 +182,7 @@ Knoppen zijn in het algemeen goed te onderscheiden, ook qua grootte.
 
 ## Voortgang 2 (week 3)
 
-<details open>
+<details>
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
@@ -226,7 +226,7 @@ Knoppen zijn in het algemeen goed te onderscheiden, ook qua grootte.
 
 ## Toegankelijkheidstest 2/2 (week 4)
 
-<details>
+<details open>
   <summary>uitwerken na test in 8e werkgroep</summary>
 
   ### Bevindingen
@@ -263,7 +263,7 @@ Knoppen zijn in het algemeen goed te onderscheiden, ook qua grootte.
 
 ## Voortgang 3 (week 4)
 
-<details>
+<details open>
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
