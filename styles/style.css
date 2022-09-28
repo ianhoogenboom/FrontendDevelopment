@@ -78,6 +78,7 @@ body {
     background-color: var(--color-background);
     font-family: 'Kanit', sans-serif;
     font-weight: 300;
+    max-width: 375px;
 
 }
 
