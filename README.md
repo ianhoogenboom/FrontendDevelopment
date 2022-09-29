@@ -239,7 +239,7 @@ Knoppen zijn in het algemeen goed te onderscheiden, ook qua grootte.
   Hoe te verbeteren:
   -visually hidden class om de h1 te laten lezen door een screenreader.
 
-  <h1 class="visually-hidden">een h1 die wel wordt voorgelezen maar die je niet ziet</h1>
+  h1 class="visually-hidden">een h1 die wel wordt voorgelezen maar die je niet ziet h1
 
   .visually-hidden {
   clip: rect(0 0 0 0);
