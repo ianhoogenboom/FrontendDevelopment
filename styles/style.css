@@ -52,7 +52,7 @@ summary {
     --color-buttonwhite: #FFFFFF;
     --color-buttonwhite-text: #111;
 
-    --color-buttongreen: #04622d;
+    --color-buttongreen: #02401d;
     --color-buttongreen-text: #FFFFFF;
 
     --color-MenuButton: #ffffff00;
@@ -222,8 +222,34 @@ section:first-of-type a:first-of-type {
     border-radius: .5em;
     background-color: black;
     text-decoration: none;
-
 }
+
+/*        BUTTON STATES*/
+
+        section:first-of-type a:hover {
+            color:black;
+            background-color: white;
+            font-weight: 500;
+            transition: .2s;
+        }
+
+        section:first-of-type a:focus {
+            color:black;
+            background-color: white;
+            font-weight: 500;
+            transition: .2s;
+            text-decoration: underline;
+        }
+
+        section:first-of-type a:active {
+            color:white;
+            background-color: #069947;
+            border: 1em;
+            border-color: white;
+            font-weight: 500;
+            transition: .2s;
+            text-decoration: underline;
+        }
 
 section:first-of-type a:nth-of-type(2) {
     color: var(--color-text);
@@ -234,6 +260,33 @@ section:first-of-type a:nth-of-type(2) {
     background-color: var(--color-background);
     text-decoration: none;
 }
+
+/*        BUTTON STATES*/
+
+        section:first-of-type a:nth-of-type(2):hover {
+            color:white;
+            background-color: black;
+            font-weight: 500;
+            transition: .2s;
+        }
+
+        section:first-of-type a:nth-of-type(2):focus {
+            color:white;
+            background-color: black;
+            font-weight: 500;
+            transition: .2s;
+            text-decoration: underline;
+        }
+
+        section:first-of-type a:nth-of-type(2):active {
+            color:white;
+            background-color: #069947;
+            border: 1em;
+            border-color: white;
+            font-weight: 500;
+            transition: .2s;
+            text-decoration: underline;
+        }
 
 section:first-of-type p {
     display: flex;
@@ -329,6 +382,36 @@ section:nth-of-type(2) button {
     border-color: var(--color-buttongreen);
     appearance: none;
 }
+
+/*        BUTTON STATES*/
+
+        section:nth-of-type(2) button:hover {
+            color:white;
+            background-color: #069947;
+            font-weight: 500;
+            transition: .2s;
+        }
+
+        section:nth-of-type(2) button:focus {
+            color:white;
+            background-color: #069947;
+            font-weight: 500;
+            transition: .2s;
+            text-decoration: underline;
+        }
+
+        section:nth-of-type(2) button:active {
+            color:white;
+            background-color: #069947;
+            border: 1em;
+            border-color: white;
+            font-weight: 500;
+            transition: .2s;
+            text-decoration: underline;
+        }
+
+
+
 
 section:nth-of-type(2) img:first-of-type {
     position: absolute;
