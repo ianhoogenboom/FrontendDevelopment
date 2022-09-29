@@ -310,13 +310,13 @@ BRON SANNE:https://codepen.io/shooft/pen/xxjYNZM
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-    | Eva                              | Ian                        | Nikolai                    | Pepijn           | Sam         |
+  | Eva                              | Ian                        | Nikolai                    | Pepijn           | Sam         |
   | ---                              | ---                        | ---                        | ---              | ---         |
-  |                                  |   Hulp met vormgeving van de eerste section. & De github live site komt bij mij niet overeen.                                  |                             |                  |             |
-  |                                  |                              |                             |                  |             |
-  | ...                              |                                       |                                         | ...              | ...         |
-  |                                  |                            |                              |                  |             |
-  |                                  |                            |                                 |                  |             |
+  |                                  | Hulp met vormgeving van    |                            |                  |             |                           |                                  |  de eerste section.        |                            |                  |             |
+  |                                  |& De github live site komt  |                            |                  |             |                          |                                  |bij mij niet overeen.       |                            |                  |             |
+  | ...                              |                            |                            |                  | ...         |
+  |                                  |                            |                            |                  |             |
+  |                                  |                            |                            |                  |             |
 
 
   ### Verslag van meeting
