@@ -312,8 +312,8 @@ BRON SANNE:https://codepen.io/shooft/pen/xxjYNZM
 
   | Eva                              | Ian                          | Nikolai                    | Pepijn           | Sam         |
   | ---                              | ---                          | ---                        | ---              | ---         |
-  |                                  | Hulp met vormgeving van      |                            |                  |             |                          |                                  | de eerste section.           |                            |                  |             |
-  |                                  | & De github live site komt   |                            |                  |             |                          |                                  | bij mij niet overeen.        |                            |                  |             |
+  |                                  | Hulp met vormgeving van      |                            |                  |             |                          |                                  | de eerste section            |                            |                  |             |
+  |                                  | en De github live site komt  |                            |                  |             |                        |                                  | bij mij niet overeen.        |                            |                  |             |
   | ...                              |                              |                            |                  | ...         |
   |                                  |                              |                            |                  |             |
   |                                  |                              |                            |                  |             |
