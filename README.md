@@ -226,7 +226,7 @@ Knoppen zijn in het algemeen goed te onderscheiden, ook qua grootte.
 
 ## Toegankelijkheidstest 2/2 (week 4)
 
-<details open>
+<details>
   <summary>uitwerken na test in 8e werkgroep</summary>
 
   ### Bevindingen
@@ -310,13 +310,13 @@ BRON SANNE:https://codepen.io/shooft/pen/xxjYNZM
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Eva                              | Ian                        | Nikolai                    | Pepijn           | Sam         |
-  | ---                              | ---                        | ---                        | ---              | ---         |
-  |                                  | Hulp met vormgeving van    |                            |                  |             |                           |                                  |  de eerste section.        |                            |                  |             |
-  |                                  |& De github live site komt  |                            |                  |             |                          |                                  |bij mij niet overeen.       |                            |                  |             |
-  | ...                              |                            |                            |                  | ...         |
-  |                                  |                            |                            |                  |             |
-  |                                  |                            |                            |                  |             |
+  | Eva                              | Ian                          | Nikolai                    | Pepijn           | Sam         |
+  | ---                              | ---                          | ---                        | ---              | ---         |
+  |                                  | Hulp met vormgeving van      |                            |                  |             |                          |                                  | de eerste section.           |                            |                  |             |
+  |                                  | & De github live site komt   |                            |                  |             |                          |                                  | bij mij niet overeen.        |                            |                  |             |
+  | ...                              |                              |                            |                  | ...         |
+  |                                  |                              |                            |                  |             |
+  |                                  |                              |                            |                  |             |
 
 
   ### Verslag van meeting
