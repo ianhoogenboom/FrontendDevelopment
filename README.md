@@ -233,27 +233,64 @@ Knoppen zijn in het algemeen goed te onderscheiden, ook qua grootte.
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  -Het mist een h1 die je welkom heet op de website.
+  -De h2 moet bovenaan.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Hoe te verbeteren:
+  -visually hidden class om de h1 te laten lezen door een screenreader.
+
+  <h1 class="visually-hidden">een h1 die wel wordt voorgelezen maar die je niet ziet</h1>
+
+  .visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+BRON SANNE:https://codepen.io/shooft/pen/xxjYNZM
+
+  -Afbeelding van sapjes; verander de naam met sap zodat het duidelijk is dat het over sap gaat.
+  -Tekens uitschrijven.
+
 
 
   #### Muis en Toetsenbord
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  -Howdyfed2233 veranderen.
+  -knoppen zijn nog niet helemaal uitgewerkt.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Hoe te verbeteren:
+  -op alle knoppen de states toevoegen.
+  <img src="readme-images/buttonnormal.png" width="430px" alt="Voortgangvanwebsite">
+  <img src="readme-images/buttonhover.png" width="430px" alt="Voortgangvanwebsite">
 
 
-  #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  #### Motoriek en concentratiegebrek (shocks, elastiekjes, ballonnen)
+  -Knoppen zijn groot genoeg om te kunnen gebruiken met shocks.
+  -Bij scroll naar de zijkant is het wat lastiger te gebruiken.
+  - Lange teksten zijn lastig voor concentratie.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  <img src="readme-images/scrolltoegankelijkheid.png" width="430px" alt="Voortgangvanwebsite">
+
+  <img src="readme-images/telangetekst.png" width="430px" alt="Voortgangvanwebsite">
+
+  Hoe te verbeteren:
+  -Je zou knoppen kunnen toevoegen ter navigatie.
+  -'lees meer' button.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light).
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  -Met beperkt zicht zijn de meeste kleuren combinatie's niet goed te lezen. Geel op zwart werkt bijvoorbeeld wel goed, maar andersom niet.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  <img src="readme-images/contrastsapkuurtoegankelijkheid.png" width="430px" alt="Voortgangvanwebsite">
+
+  <img src="readme-images/contrastshockfreezetoegankelijkheid.png" width="430px" alt="Voortgangvanwebsite">
+
+  Hoe te verbeteren:
+  -je kan een mediaquery gebruiken om voor mensen die slecht contrast zien, andere kleurencombinaties te geven. Dit geld ook voor dark-/light-mode
 
 </details>
 
