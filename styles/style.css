@@ -94,6 +94,14 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1em;
+    background-image: url(../images/bannervisual.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 66vh;
+}
+
+header img{
+    object-fit: contain;
 }
 
 header img:first-of-type {
