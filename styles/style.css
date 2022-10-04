@@ -91,13 +91,32 @@ body {
 
 header {
     background-color: var(--color-background);
-    display: flex;
-    justify-content: space-between;
+/* display: flex;
+    justify-content: space-between;*/
     padding: 1em;
     background-image: url(../images/bannervisual.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 66vh;
+}
+
+header div{
+    height: calc(116% - 3.8rem);
+    background-color: #04622d;
+    left: -16px;
+    position: relative;
+    width: 22%;
+    top: -110px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 10em;
+}
+
+header nav ul li:nth-of-type(1) img{
+    width: 2.4em;
 }
 
 header img{
@@ -106,6 +125,7 @@ header img{
 
 header img:first-of-type {
     width: 10em;
+    z-index: 2;
 }
 
 header img:nth-of-type(2) {
@@ -118,7 +138,13 @@ header button {
     z-index: 100;
 }
 
-header nav {
+header nav:nth-of-type(1){
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header nav:nth-of-type(2) {
     position: fixed;
     inset: 0;
     background-color: var(--color-background);
@@ -192,8 +218,7 @@ header button.open {
 section:first-of-type {
     display: inline-block;
     margin: 0;
-
-    background-color: var(--color-background-sapkuur);
+    background-color: var(--color-backgroundlightgrey);
 
     /*
     background-image: url(../images/bannervisual.png);
@@ -207,29 +232,35 @@ section:first-of-type {
 
 }
 
-section:first-of-type img {
-
-    background-size: cover;
-    max-width: 80%;
-    top: 0;
-    right: 0;
+main section:nth-of-type(1) img:nth-of-type(1){
+    width: 5em;
+    position: absolute;
+    top: 15em;
+    left: 2em;
 }
 
 section:first-of-type h1 {
     margin: 1em;
+    margin-top: 3em;
     font-size: 2em;
+    font-weight: 500;
+    line-height: 1.2em;
     display: flex;
     justify-content: center;
+    text-align: center;
 
 }
 
 section:first-of-type a:first-of-type {
     color: white;
     font-size: .8em;
-    padding: 1em;
+    padding: 1em 5em;
     border-radius: .5em;
     background-color: black;
     text-decoration: none;
+    position: absolute;
+    top:36em;
+    left:11em;
 }
 
 /*        BUTTON STATES*/
@@ -260,6 +291,12 @@ section:first-of-type a:first-of-type {
         }
 
 section:first-of-type a:nth-of-type(2) {
+    display: flex;
+    max-width: 8em;
+    justify-content: center;
+    margin-left: 11em;
+    margin-bottom: 1em;
+
     color: var(--color-text);
     font-size: .8em;
     padding: 1em;
@@ -298,7 +335,8 @@ section:first-of-type a:nth-of-type(2) {
 
 section:first-of-type p {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    text-align: center;
     margin: 1em;
     padding: 1em;
     font-size: 1em;
