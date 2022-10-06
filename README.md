@@ -300,11 +300,11 @@ BRON SANNE:https://codepen.io/shooft/pen/xxjYNZM
 
 ## Voortgang 3 (week 4)
 
-<details open>
+<details>
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+   <img src="readme-images/headerian.png" width="430px" alt="Voortgangvanwebsite">
 
 
   ### Agenda voor meeting
@@ -322,10 +322,8 @@ BRON SANNE:https://codepen.io/shooft/pen/xxjYNZM
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Russel en Yara hebben mij dit gesprek geholpen met de vormgeving van mijn header en eerste section,
+  hier kwam ik in mijn eentje niet uit. Dus ik ben blij dat ze mij hiermee hebben geholpen
 
 </details>
 
@@ -335,23 +333,30 @@ BRON SANNE:https://codepen.io/shooft/pen/xxjYNZM
 
 ## Eindgesprek (week 5)
 
-<details>
+<details open>
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+
+  <img src="readme-images/headerian.png" width="430px" alt="Voortgangvanwebsite">
+
+  <img src="readme-images/sappencarousel.png" width="430px" alt="Voortgangvanwebsite">
+
+  <img src="readme-images/abonnementeneinde.png" width="430px" alt="Voortgangvanwebsite">
 
 
   ### Dit ging goed/Heb ik geleerd:
-  Korte omschrijving met plaatjes
+  Het uitwerken van een lijst met grid
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/sappencarousel.png" width="430px" alt="Voortgangvanwebsite">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Mijn menu is helaas niet gelukt, nadat russel mij geholpen had met de vormgeving van mijn header, kreeg ik het niet meer voor elkaar om het menu te laten uitklappen zoals het hoort.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/headerjsvoor.png" width="430px" alt="Voortgangvanwebsite">
+  <img src="readme-images/headerjsachter.png" width="430px" alt="Voortgangvanwebsite">
+
 </details>
 
 

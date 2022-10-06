@@ -43,21 +43,26 @@ summary {
     --color-background-fanfavoritesvivian: #fb7128;
     --color-background-fanfavoritesjune: #b8e1f2;
     --color-background-footer: #000000;
+    --accent-color: black;
 
 
     /*    buttons*/
-    --color-buttonblack: #111;
+    --color-buttonblack: #000000;
     --color-buttonblack-text: #FFFFFF;
 
     --color-buttonwhite: #FFFFFF;
     --color-buttonwhite-text: #111;
 
-    --color-buttongreen: #02401d;
+    --color-buttongreen: #069947;
     --color-buttongreen-text: #FFFFFF;
 
-    --color-MenuButton: #ffffff00;
+    --color-buttondarkgreen: darkgreen;
 
-    --color-inputbutton-text: #525050;
+    --color-buttonorange:#fb7128;
+
+    --color-MenuButton: transparent;
+
+    --color-inputbutton-text: white;
 
 
 
@@ -79,20 +84,31 @@ body {
     background-color: var(--color-background);
     font-family: 'Kanit', sans-serif;
     font-weight: 300;
-    max-width: 375px;
-
 }
 
 
 /*********************/
 /****** Header ******/
 /*********************/
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
 
+/*bron sanne:https://codepen.io/shooft/pen/xxjYNZM*/
+
+
+h1 {
+
+}
 
 header {
     background-color: var(--color-background);
-/* display: flex;
-    justify-content: space-between;*/
     padding: 1em;
     background-image: url(../images/bannervisual.png);
     background-size: cover;
@@ -154,7 +170,6 @@ header nav:nth-of-type(2) {
 
 header nav.open {
     transform: translateX(0%);
-
 }
 
 header ul {
@@ -172,13 +187,7 @@ header li {
 }
 
 
-/*
-header >  > ul > li {
-   de buttons in het midden van de li's positioneren
-  display:grid;
-  place-content:center;
-}
-*/
+/*De header is code van Russel, hij heeft me erbij geholpen*/
 
 header button {
     height: 2.75rem;
@@ -206,7 +215,6 @@ header button {
 header button.open {
     background-image: url("https://assets.codepen.io/274456/ui-icon-cross.svg");
     /*    lukt me niet om plaatje te veranderen*/
-
 }
 
 
@@ -219,17 +227,6 @@ section:first-of-type {
     display: inline-block;
     margin: 0;
     background-color: var(--color-backgroundlightgrey);
-
-    /*
-    background-image: url(../images/bannervisual.png);
-    background-size: cover;
-*/
-    /*
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-*/
-
 }
 
 
@@ -254,37 +251,36 @@ section:first-of-type h1 {
 }
 
 section:first-of-type a:first-of-type {
-    color: white;
+    color: var(--color-buttonblack-text);
     font-size: .8em;
     padding: 1em 5em;
     border-radius: .5em;
-    background-color: black;
+    background-color: var(--color-buttonblack);
     text-decoration: none;
     position: absolute;
     top:36em;
     left:11em;
 }
 
-/*        BUTTON STATES*/
+    /* zwarte button 'start je detox' STATES, zwart-oranje-groen*/
 
         section:first-of-type a:hover {
-            color:black;
-            background-color: white;
+            color:var(--color-text);
+            background-color: var(--color-background);
             font-weight: 500;
             transition: .2s;
         }
 
         section:first-of-type a:focus {
-            color:black;
-            background-color: white;
+            color:var(--color-text-white);
+            background-color: var(--color-buttonorange);
             font-weight: 500;
             transition: .2s;
-            text-decoration: underline;
         }
 
         section:first-of-type a:active {
-            color:white;
-            background-color: #069947;
+            color:var(--color-buttongreen-text);
+            background-color: var(--color-buttongreen);
             border: 1em;
             border-color: white;
             font-weight: 500;
@@ -298,7 +294,6 @@ section:first-of-type a:nth-of-type(2) {
     justify-content: center;
     margin-left: 11em;
     margin-bottom: 1em;
-
     color: var(--color-text);
     font-size: .8em;
     padding: 1em;
@@ -308,26 +303,25 @@ section:first-of-type a:nth-of-type(2) {
     text-decoration: none;
 }
 
-/*        BUTTON STATES*/
+/* witte button 'cleanse now' STATES, wit-oranje-groen*/
 
         section:first-of-type a:nth-of-type(2):hover {
-            color:white;
-            background-color: black;
+            color:var(--color-buttonwhite);
+            background-color: var(--color-buttonwhite-text);
             font-weight: 500;
             transition: .2s;
         }
 
         section:first-of-type a:nth-of-type(2):focus {
-            color:white;
-            background-color: black;
+            color:var(--color-text-white);
+            background-color: var(--color-buttonorange);
             font-weight: 500;
             transition: .2s;
-            text-decoration: underline;
         }
 
         section:first-of-type a:nth-of-type(2):active {
-            color:white;
-            background-color: #069947;
+            color:var(--color-buttongreen-text);
+            background-color: var(--color-buttongreen);
             border: 1em;
             border-color: white;
             font-weight: 500;
@@ -439,26 +433,25 @@ section:nth-of-type(2) button {
     appearance: none;
 }
 
-/*        BUTTON STATES*/
+/* groene button 'add to cart' STATES, groen-oranje-groen*/
 
         section:nth-of-type(2) button:hover {
-            color:white;
-            background-color: #069947;
+            color:var(--color-buttongreen-text);
+            background-color: var(--color-buttondarkgreen);
             font-weight: 500;
             transition: .2s;
         }
 
         section:nth-of-type(2) button:focus {
-            color:white;
-            background-color: #069947;
+            color:var(--color-text-white);
+            background-color: var(--color-buttonorange);
             font-weight: 500;
             transition: .2s;
-            text-decoration: underline;
         }
 
         section:nth-of-type(2) button:active {
-            color:white;
-            background-color: #069947;
+            color:var(--color-buttongreen-text);
+            background-color: var(--color-buttongreen);
             border: 1em;
             border-color: white;
             font-weight: 500;
@@ -476,56 +469,6 @@ section:nth-of-type(2) img:first-of-type {
     left: 4.3em;
 }
 
-
-/* TWEEDE LI*/
-
-/*
-section:nth-of-type(2) li:nth-of-type(2) {
-        aspect-ratio:3/2;
-    padding: 1.5em;
-    padding-top: 6em;
-    background-color: white;
-    ;
-    border-radius: 1.5em;
-    display: grid;
-    grid-template-columns: auto max-content;
-    grid-template-rows: min-content 1fr min-content;
-    row-gap: 0;
-}
-
-section:nth-of-type(2) li h2:nth-of-type(2) {
-    margin: .5em;
-    line-height: 1.2em;
-    grid-column-start: 1;
-    grid-row-start: 1;
-}
-
-section:nth-of-type(2) li:nth-of-type(2) p:first-of-type {
-    margin: .5em;
-    grid-column-start: 1;
-    grid-row-start: 2;
-    justify-self: start;
-}
-
-section:nth-of-type(2) li:nth-of-type(2) p:nth-of-type(2) {
-    margin: .5em;
-    grid-column-start: 2;
-    grid-row-start: 2;
-    justify-self: end;
-}
-
-section:nth-of-type(2) li:nth-of-type(2) button {
-    margin: .5em;
-    padding: 1em;
-    border-radius: .5em;
-    grid-column: -1/1;
-    grid-row-start: 3;
-    color: var(--color-buttongreen-text);
-    background-color: var(--color-buttongreen);
-    border-color: var(--color-buttongreen);
-    appearance: none;
-}
-*/
 
 section:nth-of-type(2) li:nth-of-type(2) img {
     position: absolute;
@@ -603,30 +546,31 @@ section:nth-of-type(3) a {
     max-width: 10.8em;
 }
 
-section:nth-of-type(3) a:hover {
-    color:white;
-    background-color: #069947;
-    font-weight: 500;
-    transition: .2s;
-}
+/* groene button 'start sapkuur' STATES, groen-oranje-groen*/
 
-section:nth-of-type(3) a:focus {
-    color:white;
-    background-color: #069947;
-    font-weight: 500;
-    transition: .2s;
-    text-decoration: underline;
-}
+        section:nth-of-type(3) a:hover {
+            color:var(--color-buttongreen-text);
+            background-color: var(--color-buttondarkgreen);
+            font-weight: 500;
+            transition: .2s;
+        }
 
-section:nth-of-type(3) a:active {
-    color:white;
-    background-color: #069947;
-    border: 1em;
-    border-color: white;
-    font-weight: 500;
-    transition: .2s;
-    text-decoration: underline;
-}
+        section:nth-of-type(3) a:focus {
+            color:var(--color-text-white);
+            background-color: var(--color-buttonorange);
+            font-weight: 500;
+            transition: .2s;
+        }
+
+        section:nth-of-type(3) a:active {
+            color:var(--color-buttongreen-text);
+            background-color: var(--color-buttongreen);
+            border: 1em;
+            border-color: white;
+            font-weight: 500;
+            transition: .2s;
+            text-decoration: underline;
+        }
 
 
 /*********************/
@@ -643,9 +587,6 @@ section:nth-of-type(4) {
             #F6F6F6 88%,
             #B8E2F2 88%,
             #B8E2F2 100%);
-
-
-
 }
 
 
@@ -734,7 +675,7 @@ section:nth-of-type(4) div:nth-of-type(2) ul {
 /* Einde zwarte div binnen de section*/
 
 
-section:nth-of-type(4) h3 {
+section:nth-of-type(4) h4 {
     display: flex;
     justify-content: center;
 
@@ -766,6 +707,33 @@ section:nth-of-type(4) a {
     background-color: var(--color-buttonblack);
     text-decoration: none;
 }
+
+/* zwarte button 'shop juices' STATES, zwart-oranje-groen*/
+
+    section:nth-of-type(4) a:hover {
+            color:var(--color-text);
+            background-color: var(--color-background);
+            font-weight: 500;
+            transition: .2s;
+            border: solid .05em black;
+        }
+
+        section:nth-of-type(4) a:focus {
+            color:var(--color-text-white);
+            background-color: var(--color-buttonorange);
+            font-weight: 500;
+            transition: .2s;
+        }
+
+        section:nth-of-type(4) a:active {
+            color:var(--color-buttongreen-text);
+            background-color: var(--color-buttongreen);
+            border: 1em;
+            border-color: white;
+            font-weight: 500;
+            transition: .2s;
+            text-decoration: underline;
+        }
 
 
 
@@ -807,6 +775,33 @@ section:nth-of-type(5) a {
     text-decoration: none;
     margin: 1em;
 }
+
+    /* witte button 'shop juices' STATES, zwart-oranje-groen*/
+
+    section:nth-of-type(5) a:hover {
+            color:var(--color-buttonwhite);
+            background-color: var(--color-buttonwhite-text);
+            font-weight: 500;
+            transition: .2s;
+            border: solid .05em black;
+        }
+
+        section:nth-of-type(5) a:focus {
+            color:var(--color-text-white);
+            background-color: var(--color-buttonorange);
+            font-weight: 500;
+            transition: .2s;
+        }
+
+        section:nth-of-type(5) a:active {
+            color:var(--color-buttongreen-text);
+            background-color: var(--color-buttongreen);
+            border: 1em;
+            border-color: white;
+            font-weight: 500;
+            transition: .2s;
+            text-decoration: underline;
+        }
 
 
 
@@ -872,15 +867,6 @@ section:nth-of-type(5) li:nth-of-type(3) {
     color: var(--color-text-orange);
 }
 
-
-
-
-
-
-
-
-
-
 /*********************/
 /****** Section 6 ******/
 /*********************/
@@ -920,8 +906,34 @@ section:nth-of-type(6) a {
     padding: .5em 1em;
     text-decoration: none;
     margin: 1em;
-
 }
+
+    /* witte button 'shop juices' STATES, zwart-oranje-groen*/
+
+    section:nth-of-type(6) a:hover {
+            color:var(--color-buttonwhite);
+            background-color: var(--color-buttonwhite-text);
+            font-weight: 500;
+            transition: .2s;
+            border: solid .05em black;
+        }
+
+        section:nth-of-type(6) a:focus {
+            color:var(--color-text-white);
+            background-color: var(--color-buttonorange);
+            font-weight: 500;
+            transition: .2s;
+        }
+
+        section:nth-of-type(6) a:active {
+            color:var(--color-buttongreen-text);
+            background-color: var(--color-buttongreen);
+            border: 1em;
+            border-color: white;
+            font-weight: 500;
+            transition: .2s;
+            text-decoration: underline;
+        }
 
 
 
@@ -972,6 +984,32 @@ section:nth-of-type(7) a {
     background-color: var(--color-buttonblack);
     text-decoration: none;
 }
+
+     /* zwarte button 'start je detox' STATES, zwart-blauw-groen*/
+
+        section:nth-of-type(7) a:hover {
+            color:var(--color-text);
+            background-color: var(--color-background);
+            font-weight: 500;
+            transition: .2s;
+        }
+
+        section:nth-of-type(7) a:focus {
+            color:var(--color-text-white);
+            background-color: dodgerblue;
+            font-weight: 500;
+            transition: .2s;
+        }
+
+        section:nth-of-type(7) a:active {
+            color:var(--color-buttongreen-text);
+            background-color: var(--color-buttongreen);
+            border: 1em;
+            border-color: white;
+            font-weight: 500;
+            transition: .2s;
+            text-decoration: underline;
+        }
 
 section:nth-of-type(7) img {
     position: absolute;
@@ -1036,7 +1074,7 @@ section:nth-of-type(8) label {
 section:nth-of-type(8) input {
     font-size: .9em;
     color: var(--color-inputbutton-text);
-    background-color: var(--color-MenuButton);
+    background-color: #be7664;
     border-radius: .5em 0em 0em .5em;
     border-color: var(--color-text);
     padding: .5em 1em;
@@ -1051,6 +1089,35 @@ section:nth-of-type(8) button {
     background-color: var(--color-buttonblack);
 }
 
+/* zwarte button 'shop juices' STATES, zwart-oranje-groen*/
+
+    section:nth-of-type(8) button:hover {
+        font-size: 1em;
+        color:var(--color-text);
+        background-color: var(--color-background);
+        border-radius: 0em .5em .5em 0em;
+        border-color: var(--color-text);
+        padding: 1em;
+
+    }
+
+    section:nth-of-type(8) button:focus {
+        font-size: 1em;
+        color:var(--color-text-white);
+        background-color: var(--color-buttonorange);
+        border-radius: 0em .5em .5em 0em;
+        border-color: var(--color-text);
+        padding: 1em;
+    }
+
+    section:nth-of-type(8) button:active {
+        font-size: 1em;
+        color:var(--color-buttongreen-text);
+        background-color: var(--color-buttongreen);
+        border-radius: 0em .5em .5em 0em;
+        border-color: var(--color-text);
+        padding: 1em;
+    }
 
 
 
@@ -1092,6 +1159,11 @@ footer p:nth-of-type(2) {
     font-weight: 200;
 }
 
+footer p:hover {
+    color:white;
+    transition: .4s;
+}
+
 footer ul:not(:first-of-type) {
     list-style: none;
     margin-left: -2.4em;
@@ -1102,6 +1174,11 @@ footer ul:not(:first-of-type) li {
     color: var(--color-text-grey);
     font-weight: 200;
     line-height: 2.5em;
+}
+
+footer ul li:hover {
+    color:white;
+    transition: .4s;
 }
 
 footer img:first-of-type {
@@ -1153,9 +1230,68 @@ footer ul:first-of-type li:nth-of-type(3) {
 
 
 
+/*********************/
+/****** STATES ******/
+/*********************/
 
 
 
+
+ section:nth-of-type(2) h2 {
+  text-decoration:none;
+  transition:.5s;
+}
+
+section:nth-of-type(2) h2:is(:hover, :focus-visible) {
+  box-shadow:0 .25em 0 var(--accent-color);
+}
+
+
+
+ section:nth-of-type(4) h3:first-of-type {
+  text-decoration:none;
+  transition:.5s;
+}
+
+section:nth-of-type(4)  h3:first-of-type:is(:hover, :focus-visible) {
+  box-shadow:0 .25em 0 var(--accent-color);
+}
+
+section:nth-of-type(4) div:nth-of-type(2) h3 {
+  text-decoration:none;
+  transition:.5s;
+}
+
+section:nth-of-type(4) div:nth-of-type(2) h3:is(:hover, :focus-visible) {
+  box-shadow:0 .25em 0 yellow;
+}
+
+section:nth-of-type(5) h2 {
+  text-decoration:none;
+  transition:.5s;
+}
+
+section:nth-of-type(5) h2:is(:hover, :focus-visible) {
+  box-shadow:0 .25em 0 white;
+}
+
+ footer h4 {
+  text-decoration:none;
+  transition:.5s;
+}
+
+footer h4:is(:hover, :focus-visible) {
+  box-shadow:0 .25em 0 white;
+}
+
+.chat {
+    max-width: 4em;
+    position: fixed;
+    bottom: 2em;
+    right: 1em;
+    z-index: 600;
+    border-color: transparent;
+}
 
 
 
