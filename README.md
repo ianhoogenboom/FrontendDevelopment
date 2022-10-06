@@ -338,7 +338,7 @@ BRON SANNE:https://codepen.io/shooft/pen/xxjYNZM
 
   ### Je uitkomst - karakteristiek screenshots:
 
-  <img src="readme-images/headerian.png" width="430px" alt="Voortgangvanwebsite">
+  <img src="readme-images/headerhulprussel.png" width="430px" alt="Voortgangvanwebsite">
 
   <img src="readme-images/sappencarousel.png" width="430px" alt="Voortgangvanwebsite">
 
